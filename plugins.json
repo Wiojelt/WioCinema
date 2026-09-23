@@ -6,14 +6,14 @@
     "name": "0 WioCinema",
     "internalName": "WioCinema",
     "authors": ["Wiojelt"],
-    "description": "TMDB/IMDb katalogı üzerinden yabancı film ve dizi kaynakları.",
+    "description": "Global movie and series providers with TMDB/IMDb catalog matching.",
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
-    "language": "tr",
+    "language": "en",
     "tvTypes": ["Movie", "TvSeries"],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
-    "fileSize": 2037011,
-    "fileHash": "sha256-f60d3033474e46d6180953051cd47ee116178e358807a3f36f10c0ace6836c1a",
-    "hash": "f60d3033474e46d6180953051cd47ee116178e358807a3f36f10c0ace6836c1a"
+    "fileSize": 2031119,
+    "fileHash": "sha256-e8d3b5fa06d23319b333cbe813187d75e89657fcbb84af010b25acf86bc816b2",
+    "hash": "e8d3b5fa06d23319b333cbe813187d75e89657fcbb84af010b25acf86bc816b2"
   }
 ]

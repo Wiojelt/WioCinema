@@ -1,7 +1,7 @@
 # WioCinema
 
-TMDB/IMDb kimlikli katalogla yabancı film ve dizi sağlayıcılarını tek eklentide toplar. Kaynak grubu başlangıçta yabancı sağlayıcılara ayarlıdır.
+Global movie and series providers in one CloudStream plugin, using TMDB/IMDb identifiers for catalog matching.
 
-Kurulum: CloudStream deposuna şu adresi ekleyin:
+Add this repository to CloudStream:
 
 `https://raw.githubusercontent.com/Wiojelt/WioCinema/main/repo.json`
