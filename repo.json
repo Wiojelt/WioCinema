@@ -1,0 +1,7 @@
+{
+  "name": "WioCinema",
+  "description": "Yabancı film ve dizi sağlayıcıları",
+  "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
+  "manifestVersion": 1,
+  "pluginLists": ["https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/plugins.json"]
+}
