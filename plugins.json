@@ -12,8 +12,8 @@
     "tvTypes": ["Movie", "TvSeries"],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
-    "fileSize": 2037074,
-    "fileHash": "sha256-e35104877bb84d0aa8f0401d78dd3a08fe9e6710ee19b5849b8da0e7b5dda798",
-    "hash": "e35104877bb84d0aa8f0401d78dd3a08fe9e6710ee19b5849b8da0e7b5dda798"
+    "fileSize": 2037011,
+    "fileHash": "sha256-f60d3033474e46d6180953051cd47ee116178e358807a3f36f10c0ace6836c1a",
+    "hash": "f60d3033474e46d6180953051cd47ee116178e358807a3f36f10c0ace6836c1a"
   }
 ]
