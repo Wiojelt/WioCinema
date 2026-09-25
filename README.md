@@ -24,3 +24,7 @@ Doğrudan bu depodan eklemek isterseniz:
 https://raw.githubusercontent.com/Wiojelt/WioCinema/main/manifest.json
 ```
 
+
+## CineStream
+
+CineStream bu depoda yeniden derlenmez. Katalog kaydı doğrudan `SaurabhKaperwan/CSX` deposundaki güncel `builds/CineStream.cs3` paketini kullanır; upstream sürüm ve hash bilgileri otomatik senkronize edilir.
