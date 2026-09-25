@@ -3,5 +3,7 @@
   "description": "Global movie and series providers",
   "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
   "manifestVersion": 1,
-  "pluginLists": ["https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/plugins.json?v=a3bf355"]
+  "pluginLists": [
+    "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/plugins.json?v=cinestream-487-30dc64362870"
+  ]
 }
