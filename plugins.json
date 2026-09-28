@@ -1,8 +1,8 @@
 [
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/ea940834c0288572ec11667402393575148e930a/WioCinema.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/WioCinema.cs3",
     "status": 3,
-    "version": 3,
+    "version": 4,
     "name": "0 WioCinema",
     "internalName": "WioCinema",
     "pluginClassName": "dev.wiojelt.wiocinema.WioCinemaPlugin",
@@ -18,8 +18,8 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
-    "fileSize": 2032925,
-    "fileHash": "sha256-db1083cb089d6dd20c3047522626c4db0846c59ea13127b3280b7dd7b6ceacce"
+    "fileSize": 2031546,
+    "fileHash": "sha256-1bf8517668994f0fc8654ac39c2d18f2cf3188ae247cc350a4b0421968378564"
   },
   {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/BingeBang.cs3",
