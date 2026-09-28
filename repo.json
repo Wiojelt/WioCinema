@@ -4,6 +4,6 @@
   "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/plugins.json?v=turkishcinestream-482-20260928"
+    "https://raw.githubusercontent.com/Wiojelt/WioCinema/eea6aee8f117db313568617fe83948ebe35a74dc/plugins.json"
   ]
 }
