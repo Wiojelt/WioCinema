@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/WioCinema.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/ea940834c0288572ec11667402393575148e930a/WioCinema.cs3",
     "status": 3,
     "version": 3,
     "name": "0 WioCinema",
@@ -195,7 +195,7 @@
     "fileHash": "sha256-420dc53ef0baf16a48d9d8c4edba56808cda2212526357eb5a63fb9245a3c298"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/TurkishCineStream.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/ea940834c0288572ec11667402393575148e930a/TurkishCineStream.cs3",
     "status": 1,
     "version": 482,
     "name": "TurkishCineStream",
