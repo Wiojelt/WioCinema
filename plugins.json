@@ -111,27 +111,6 @@
     "fileHash": "sha256-30dc643628702d6b2fe139339e59996783c95a0c1d41efe0a31872ae4d10908b"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/ClipBox.cs3",
-    "status": 3,
-    "version": 7,
-    "name": "ClipBox",
-    "internalName": "ClipBox",
-    "authors": [
-      "Wiojelt"
-    ],
-    "description": "Global ClipBox movie and series provider.",
-    "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
-    "language": "en",
-    "tvTypes": [
-      "Movie",
-      "TvSeries"
-    ],
-    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/TurkSinema/main/assets/providers/ClipBox.png",
-    "apiVersion": 1,
-    "fileSize": 800299,
-    "fileHash": "sha256-a65a585f5074a5f281a81dc3602d023fcf747cc929c3a1dcbc96a09da3366b9a"
-  },
-  {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/FlixNetwork.cs3",
     "status": 3,
     "version": 7,
@@ -219,4 +198,4 @@
     "fileHash": "sha256-4ae6048fe81b1aaf2aae6ca4695dcdac1ac62d8ac3436966acaef054dd1655c3",
     "hash": "4ae6048fe81b1aaf2aae6ca4695dcdac1ac62d8ac3436966acaef054dd1655c3"
   }
-]
+]\n
