@@ -4,6 +4,6 @@
   "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/plugins.json?v=settings-v5-immutable"
+    "https://raw.githubusercontent.com/Wiojelt/WioCinema/e828b89f83bffd0f55a9c4ced82e167bacd3686c/plugins.json"
   ]
 }
