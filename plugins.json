@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/BingeBang.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/BingeBang.cs3",
     "status": 3,
     "version": 1,
     "name": "BingeBang",
@@ -21,7 +21,7 @@
     "fileHash": "sha256-c5fec567ca35f24ca097741c0e3b1c14c2fc1007311ca2453001dbd405e44f5c"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/CineCat.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/CineCat.cs3",
     "status": 3,
     "version": 2,
     "name": "CineCat",
@@ -43,7 +43,7 @@
     "fileHash": "sha256-90b8b214b671885a8d2c73412462713a793f1e7e9b3c81362bca598f8630ad2e"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/CineSimkl.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/CineSimkl.cs3",
     "status": 3,
     "version": 7,
     "name": "CineSimkl",
@@ -66,7 +66,7 @@
     "fileHash": "sha256-e89640c6090de50e166afb0d637500208b3edf74002fe2686800a84fb5edd2c9"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/CineStream.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/CineStream.cs3",
     "status": 3,
     "version": 7,
     "name": "CineStream",
@@ -98,7 +98,7 @@
     "fileHash": "sha256-43308ce92c2d5c166620d43156e171e2b952f36d4d881df05cec7da14f5abb6c"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/ClipBox.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/ClipBox.cs3",
     "status": 3,
     "version": 7,
     "name": "ClipBox",
@@ -121,7 +121,7 @@
     "fileHash": "sha256-58b02a7562755d3f3949110f1a29545f903d1e29ffa04f164e579c1105b9e313"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/FlixNetwork.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/FlixNetwork.cs3",
     "status": 3,
     "version": 7,
     "name": "FlixNetwork",
@@ -144,7 +144,7 @@
     "fileHash": "sha256-cf08cfc716a3939e23dee6290c7e7bc32b6cd49d610f051b651eb2b4b044e84c"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/Mapple.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/Mapple.cs3",
     "status": 3,
     "version": 3,
     "name": "Mapple",
@@ -169,7 +169,7 @@
     "internalName": "MovieBoxProvider",
     "name": "MovieBoxProvider",
     "version": 47,
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/MovieBoxProvider.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/MovieBoxProvider.cs3",
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "fileHash": "sha256-5ddbfba13f10d1bb92df74d475c6c04a7c11dc108a91d72230a33aa71352b98c",
     "fileSize": 82602,
@@ -185,7 +185,7 @@
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/RareFilmm.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/RareFilmm.cs3",
     "status": 3,
     "version": 7,
     "name": "RareFilmm",
@@ -208,7 +208,7 @@
     "fileHash": "sha256-dc32bcfabf8f5c48cfa5b96faedb7ab79c82cd1a4d4f6aa4f967ecb056525a56"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/TurkishCineStream.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/TurkishCineStream.cs3",
     "status": 1,
     "version": 6,
     "name": "TurkishCineStream",
