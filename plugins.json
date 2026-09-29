@@ -1,8 +1,8 @@
 [
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/c76bf6addd0ec3ce7ee7d8003475fc4a523bf5b6/WioCinema.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/WioCinema.cs3",
     "status": 3,
-    "version": 5,
+    "version": 6,
     "name": "0 WioCinema",
     "internalName": "WioCinema",
     "pluginClassName": "dev.wiojelt.wiocinema.WioCinemaPlugin",
@@ -18,8 +18,8 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
-    "fileSize": 2105346,
-    "fileHash": "sha256-7c8382547d53cfc234ca30752244be80418892bac8798031555d8c1ff9f4232d"
+    "fileSize": 2029450,
+    "fileHash": "sha256-152fe5763c1855d236c8f78be67beb2c333106f1022a21dabcefcf1821afaf7c"
   },
   {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/BingeBang.cs3",
@@ -174,9 +174,9 @@
     "fileHash": "sha256-420dc53ef0baf16a48d9d8c4edba56808cda2212526357eb5a63fb9245a3c298"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/ea940834c0288572ec11667402393575148e930a/TurkishCineStream.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/TurkishCineStream.cs3",
     "status": 1,
-    "version": 482,
+    "version": 483,
     "name": "TurkishCineStream",
     "internalName": "TurkishCineStream",
     "authors": [
@@ -194,8 +194,8 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/providers/turkishcinestream.png",
     "apiVersion": 1,
-    "fileSize": 800207,
-    "fileHash": "sha256-4ae6048fe81b1aaf2aae6ca4695dcdac1ac62d8ac3436966acaef054dd1655c3",
-    "hash": "4ae6048fe81b1aaf2aae6ca4695dcdac1ac62d8ac3436966acaef054dd1655c3"
+    "fileSize": 806301,
+    "fileHash": "sha256-227c949e11808b923ef3fb69bc0466fa17608d1f83fff923cff8d9c381ccaacd",
+    "hash": "227c949e11808b923ef3fb69bc0466fa17608d1f83fff923cff8d9c381ccaacd"
   }
 ]
