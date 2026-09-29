@@ -1,5 +1,27 @@
 [
   {
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/WioCinema.cs3",
+    "status": 3,
+    "version": 7,
+    "name": "0 WioCinema",
+    "internalName": "WioCinema",
+    "pluginClassName": "dev.wiojelt.wiocinema.WioCinemaPlugin",
+    "authors": [
+      "Wiojelt"
+    ],
+    "description": "Global movie and series providers with TMDB/IMDb catalog matching.",
+    "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
+    "language": "en",
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
+    "apiVersion": 1,
+    "fileSize": 2029505,
+    "fileHash": "sha256-2ca024256f63542ebaf2b76c2d489aff038201298d9f7d4f8f42ff26e46aeb8e"
+  },
+  {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/BingeBang.cs3",
     "status": 3,
     "version": 1,
