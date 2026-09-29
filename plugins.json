@@ -2,18 +2,47 @@
   {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/c76bf6addd0ec3ce7ee7d8003475fc4a523bf5b6/WioCinema.cs3",
     "status": 3,
-    "version": 5,
+    "version": 1,
     "name": "0 WioCinema",
     "internalName": "WioCinema",
-    "authors": ["Wiojelt"],
+    "authors": [
+      "Wiojelt"
+    ],
     "description": "Global movie and series providers with TMDB/IMDb catalog matching.",
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "en",
-    "tvTypes": ["Movie", "TvSeries"],
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
-    "fileSize": 2105346,
-    "fileHash": "sha256-7c8382547d53cfc234ca30752244be80418892bac8798031555d8c1ff9f4232d",
-    "hash": "7c8382547d53cfc234ca30752244be80418892bac8798031555d8c1ff9f4232d"
+    "fileSize": 2032924,
+    "fileHash": "sha256-6b4180b5f575539e8774fda1edb55e99262591e0b7c37177164bd6e9e8c48206",
+    "hash": "6b4180b5f575539e8774fda1edb55e99262591e0b7c37177164bd6e9e8c48206"
+  },
+  {
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/TurkishCineStream.cs3",
+    "status": 1,
+    "version": 6,
+    "name": "TurkishCineStream",
+    "internalName": "TurkishCineStream",
+    "authors": [
+      "Wiojelt",
+      "megix"
+    ],
+    "description": "CineStream video motoru + Türkçe çoklu altyazı motoru + upstream CineStream ayar paneli",
+    "fileSize": 391581,
+    "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
+    "language": "tr",
+    "tvTypes": [
+      "Movie",
+      "TvSeries",
+      "Anime",
+      "AsianDrama"
+    ],
+    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/providers/turkishcinestream.png",
+    "apiVersion": 1,
+    "fileHash": "sha256-e6f3262d9a448365068ce7c4a67baafb147bfbb06f0f8e637aeeb77d13113b53"
   }
 ]
