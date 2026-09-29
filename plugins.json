@@ -88,36 +88,28 @@
     "fileHash": "sha256-b371231c4159e6805af7e4f1c29221baf3c2381876de6704f02a73ec73f425a7"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/CineStream.cs3",
-    "status": 3,
-    "version": 7,
+    "url": "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/builds/CineStream.cs3",
+    "status": 1,
+    "version": 487,
     "name": "CineStream",
     "internalName": "CineStream",
     "authors": [
-      "Wiojelt",
-      "Saloo1575",
-      "keyiflerolsun",
-      "JustRelaxable",
-      "usdogu",
-      "hexated",
-      "patron",
-      "nikyokki",
-      "SaurabhKaperwan",
       "megix"
     ],
-    "description": "CineStream · TurkSinema ayrı sağlayıcı paketi",
-    "fileSize": 747608,
-    "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
-    "language": "tr",
+    "description": "One stop solution for Movies, Series, Anime, AsianDrama and Torrents",
+    "fileSize": 695013,
+    "repositoryUrl": "https://github.com/SaurabhKaperwan/CSX",
+    "language": "en",
     "tvTypes": [
-      "Movie",
       "TvSeries",
+      "Movie",
+      "AsianDrama",
       "Anime",
-      "Documentary"
+      "Torrent"
     ],
-    "iconUrl": "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/master/CineStream/icon.png",
+    "iconUrl": "https://github.com/SaurabhKaperwan/CSX/raw/refs/heads/master/CineStream/icon.png",
     "apiVersion": 1,
-    "fileHash": "sha256-43308ce92c2d5c166620d43156e171e2b952f36d4d881df05cec7da14f5abb6c"
+    "fileHash": "sha256-30dc643628702d6b2fe139339e59996783c95a0c1d41efe0a31872ae4d10908b"
   },
   {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/ClipBox.cs3",
