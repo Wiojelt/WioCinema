@@ -31,7 +31,7 @@
       "Wiojelt"
     ],
     "description": "BingeBang - Film ve Dizi Portali (bingebang.tv). 4K Ultra HD ve Full HD HLS akislari.",
-    "fileSize": 88257,
+    "fileSize": 93034,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "all",
     "tvTypes": [
@@ -40,7 +40,7 @@
     ],
     "iconUrl": "https://bingebang.tv/icon-512.png",
     "apiVersion": 1,
-    "fileHash": "sha256-c5fec567ca35f24ca097741c0e3b1c14c2fc1007311ca2453001dbd405e44f5c"
+    "fileHash": "sha256-eaab420873e962c643bca5a79f41ebf2949008aea47f61248527bbdb83c71d80"
   },
   {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/CineCat.cs3",
@@ -52,7 +52,7 @@
       "Wiojelt"
     ],
     "description": "Cinecat · Dizi & Film Portalı (cinecat.eu)",
-    "fileSize": 786713,
+    "fileSize": 795072,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "all",
     "tvTypes": [
@@ -62,7 +62,7 @@
     ],
     "iconUrl": "https://cinecat.eu/android-chrome-192x192.png?v=3",
     "apiVersion": 1,
-    "fileHash": "sha256-90b8b214b671885a8d2c73412462713a793f1e7e9b3c81362bca598f8630ad2e"
+    "fileHash": "sha256-112463879207b1648cc5db7d094498f3d36fadeadcecae1afdd038dc83273a9b"
   },
   {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/CineSimkl.cs3",
@@ -74,7 +74,7 @@
       "Wiojelt"
     ],
     "description": "CineSimkl · TurkSinema ayrı sağlayıcı paketi",
-    "fileSize": 747557,
+    "fileSize": 794476,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "tr",
     "tvTypes": [
@@ -85,7 +85,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=simkl.com&sz=128",
     "apiVersion": 1,
-    "fileHash": "sha256-e89640c6090de50e166afb0d637500208b3edf74002fe2686800a84fb5edd2c9"
+    "fileHash": "sha256-b371231c4159e6805af7e4f1c29221baf3c2381876de6704f02a73ec73f425a7"
   },
   {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/CineStream.cs3",
@@ -152,7 +152,7 @@
       "Wiojelt"
     ],
     "description": "Flix Network · TurkSinema ayrı sağlayıcı paketi",
-    "fileSize": 33002,
+    "fileSize": 78995,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "tr",
     "tvTypes": [
@@ -163,19 +163,19 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=flixnetwork.is&sz=128",
     "apiVersion": 1,
-    "fileHash": "sha256-cf08cfc716a3939e23dee6290c7e7bc32b6cd49d610f051b651eb2b4b044e84c"
+    "fileHash": "sha256-e9a820f249e100917a1064f9b807fb5737a2d9259b8f5d092dbe4035072b75fe"
   },
   {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/Mapple.cs3",
     "status": 3,
-    "version": 3,
+    "version": 4,
     "name": "Mapple",
     "internalName": "Mapple",
     "authors": [
       "Wiojelt"
     ],
     "description": "Mapple - Stream Movies, TV Shows & Anime in HD/4K (mapple.fun). Multi-source HLS streams.",
-    "fileSize": 96202,
+    "fileSize": 104393,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "all",
     "tvTypes": [
@@ -185,7 +185,7 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/test/builds/logos/mapple.png",
     "apiVersion": 1,
-    "fileHash": "sha256-5b8a53534662e54ae7bd5ffa4720b2b08be5754524c12ec836e9c7da5dfd0908"
+    "fileHash": "sha256-0c4e17e3039d2f281698d1dd28da151d3a416cf7e8115d51c5aa8ff70629454b"
   },
   {
     "internalName": "MovieBoxProvider",
@@ -232,7 +232,7 @@
   {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/TurkishCineStream.cs3",
     "status": 1,
-    "version": 6,
+    "version": 483,
     "name": "TurkishCineStream",
     "internalName": "TurkishCineStream",
     "authors": [
@@ -240,7 +240,7 @@
       "megix"
     ],
     "description": "CineStream video motoru + Türkçe çoklu altyazı motoru + upstream CineStream ayar paneli",
-    "fileSize": 391581,
+    "fileSize": 806301,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "tr",
     "tvTypes": [
@@ -251,6 +251,6 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/providers/turkishcinestream.png",
     "apiVersion": 1,
-    "fileHash": "sha256-e6f3262d9a448365068ce7c4a67baafb147bfbb06f0f8e637aeeb77d13113b53"
+    "fileHash": "sha256-227c949e11808b923ef3fb69bc0466fa17608d1f83fff923cff8d9c381ccaacd"
   }
 ]
