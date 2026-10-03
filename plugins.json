@@ -222,9 +222,9 @@
     "fileHash": "sha256-dc32bcfabf8f5c48cfa5b96faedb7ab79c82cd1a4d4f6aa4f967ecb056525a56"
   },
   {
-    "url": "https://github.com/Wiojelt/WioSinema/releases/download/wiosinema-artifacts-2026-10-03-r6/TurkishCineStream.cs3",
+    "url": "https://github.com/Wiojelt/WioSinema/releases/download/wiosinema-artifacts-2026-10-03-r7/TurkishCineStream.cs3",
     "status": 1,
-    "version": 486,
+    "version": 487,
     "name": "TurkishCineStream",
     "internalName": "TurkishCineStream",
     "authors": [
@@ -232,7 +232,7 @@
       "megix"
     ],
     "description": "CineStream video motoru + Türkçe çoklu altyazı motoru + upstream CineStream ayar paneli",
-    "fileSize": 823138,
+    "fileSize": 840939,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "tr",
     "tvTypes": [
@@ -243,6 +243,6 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/providers/turkishcinestream.png",
     "apiVersion": 1,
-    "fileHash": "sha256-5743e1a5e8ff3cda30c72f83c3d56fe47601e05dd3a58a23d5509fd7b8b60a8a"
+    "fileHash": "sha256-ca1989aeea4c068d2315d67a72ae64e2c5c5f2c9e4436dea124b897925f5322d"
   }
 ]
