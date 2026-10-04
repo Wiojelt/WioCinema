@@ -1,7 +1,7 @@
 {
   "name": "WioCinema",
   "description": "Global movie and series providers",
-  "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo-20261004.png",
+  "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo-20261004.png?rev=2",
   "manifestVersion": 1,
   "pluginLists": [
     "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/plugins.json?v=cinestream-487-30dc64362870"
