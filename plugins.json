@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/WioCinema.cs3",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/WioCinema.cs3",
     "status": 3,
     "version": 7,
     "name": "0 WioCinema",
@@ -16,13 +16,13 @@
       "Movie",
       "TvSeries"
     ],
-    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo-20261004.png?rev=2",
+    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
     "fileSize": 2029505,
     "fileHash": "sha256-2ca024256f63542ebaf2b76c2d489aff038201298d9f7d4f8f42ff26e46aeb8e"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/BingeBang.cs3",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/BingeBang.cs3",
     "status": 3,
     "version": 1,
     "name": "BingeBang",
@@ -43,7 +43,7 @@
     "fileHash": "sha256-eaab420873e962c643bca5a79f41ebf2949008aea47f61248527bbdb83c71d80"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/CineCat.cs3",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/CineCat.cs3",
     "status": 3,
     "version": 2,
     "name": "CineCat",
@@ -65,7 +65,7 @@
     "fileHash": "sha256-112463879207b1648cc5db7d094498f3d36fadeadcecae1afdd038dc83273a9b"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/CineSimkl.cs3",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/CineSimkl.cs3",
     "status": 3,
     "version": 7,
     "name": "CineSimkl",
@@ -88,7 +88,7 @@
     "fileHash": "sha256-b371231c4159e6805af7e4f1c29221baf3c2381876de6704f02a73ec73f425a7"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/CineStream.cs3",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/CineStream.cs3",
     "status": 3,
     "version": 7,
     "name": "CineStream",
@@ -120,7 +120,7 @@
     "fileHash": "sha256-43308ce92c2d5c166620d43156e171e2b952f36d4d881df05cec7da14f5abb6c"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/ClipBox.cs3",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/ClipBox.cs3",
     "status": 3,
     "version": 7,
     "name": "ClipBox",
@@ -143,7 +143,7 @@
     "fileHash": "sha256-58b02a7562755d3f3949110f1a29545f903d1e29ffa04f164e579c1105b9e313"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/FlixNetwork.cs3",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/FlixNetwork.cs3",
     "status": 3,
     "version": 7,
     "name": "FlixNetwork",
@@ -166,7 +166,7 @@
     "fileHash": "sha256-e9a820f249e100917a1064f9b807fb5737a2d9259b8f5d092dbe4035072b75fe"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/Mapple.cs3",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/Mapple.cs3",
     "status": 3,
     "version": 4,
     "name": "Mapple",
@@ -191,7 +191,7 @@
     "internalName": "MovieBoxProvider",
     "name": "MovieBoxProvider",
     "version": 47,
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/MovieBoxProvider.cs3",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/MovieBoxProvider.cs3",
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "fileHash": "sha256-5ddbfba13f10d1bb92df74d475c6c04a7c11dc108a91d72230a33aa71352b98c",
     "fileSize": 82602,
@@ -207,7 +207,7 @@
     ]
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/RareFilmm.cs3",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/RareFilmm.cs3",
     "status": 3,
     "version": 7,
     "name": "RareFilmm",
@@ -230,7 +230,7 @@
     "fileHash": "sha256-dc32bcfabf8f5c48cfa5b96faedb7ab79c82cd1a4d4f6aa4f967ecb056525a56"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/TurkishCineStream.cs3",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/TurkishCineStream.cs3",
     "status": 1,
     "version": 483,
     "name": "TurkishCineStream",
