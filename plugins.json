@@ -1,8 +1,8 @@
 [
   {
-    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/WioCinema.cs3",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/WioCinema.cs3?v=926da5699c68",
     "status": 3,
-    "version": 7,
+    "version": 8,
     "name": "0 WioCinema",
     "internalName": "WioCinema",
     "pluginClassName": "dev.wiojelt.wiocinema.WioCinemaPlugin",
@@ -18,8 +18,8 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
-    "fileSize": 2029505,
-    "fileHash": "sha256-2ca024256f63542ebaf2b76c2d489aff038201298d9f7d4f8f42ff26e46aeb8e"
+    "fileSize": 2141015,
+    "fileHash": "sha256-926da5699c6856d99cd7a21625eb7b71e54f05ed29a6098b4c20d76154236bad"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/BingeBang.cs3",
