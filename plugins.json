@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/WioCinema.cs3?v=926da5699c68",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/WioCinema.cs3?v=3b6f5d5cbc37",
     "status": 3,
     "version": 8,
     "name": "0 WioCinema",
@@ -18,8 +18,8 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
-    "fileSize": 2141015,
-    "fileHash": "sha256-926da5699c6856d99cd7a21625eb7b71e54f05ed29a6098b4c20d76154236bad"
+    "fileSize": 2285758,
+    "fileHash": "sha256-3b6f5d5cbc37e472c39c1d810587d926b96505c4bf600e2d6abdbad09731bd48"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/BingeBang.cs3",
@@ -31,7 +31,7 @@
       "Wiojelt"
     ],
     "description": "BingeBang - Film ve Dizi Portali (bingebang.tv). 4K Ultra HD ve Full HD HLS akislari.",
-    "fileSize": 93034,
+    "fileSize": 125509,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "all",
     "tvTypes": [
@@ -40,7 +40,7 @@
     ],
     "iconUrl": "https://bingebang.tv/icon-512.png",
     "apiVersion": 1,
-    "fileHash": "sha256-eaab420873e962c643bca5a79f41ebf2949008aea47f61248527bbdb83c71d80"
+    "fileHash": "sha256-75632a9baa3e84b67c98ac2b4e32bf3c8a4f3af349b3313045ea761ddad697b7"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/CineCat.cs3",
@@ -52,7 +52,7 @@
       "Wiojelt"
     ],
     "description": "Cinecat · Dizi & Film Portalı (cinecat.eu)",
-    "fileSize": 795072,
+    "fileSize": 824613,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "all",
     "tvTypes": [
@@ -62,7 +62,7 @@
     ],
     "iconUrl": "https://cinecat.eu/android-chrome-192x192.png?v=3",
     "apiVersion": 1,
-    "fileHash": "sha256-112463879207b1648cc5db7d094498f3d36fadeadcecae1afdd038dc83273a9b"
+    "fileHash": "sha256-1ca78d9f718160eb8f028e2f7a1c9915a1b639dff6d4e2247c5216d79f8fc437"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/CineSimkl.cs3",
@@ -74,7 +74,7 @@
       "Wiojelt"
     ],
     "description": "CineSimkl · TurkSinema ayrı sağlayıcı paketi",
-    "fileSize": 794476,
+    "fileSize": 823999,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "tr",
     "tvTypes": [
@@ -85,7 +85,7 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=simkl.com&sz=128",
     "apiVersion": 1,
-    "fileHash": "sha256-b371231c4159e6805af7e4f1c29221baf3c2381876de6704f02a73ec73f425a7"
+    "fileHash": "sha256-38ffa9ee29bd4aff4126240827b545207d8cf62ba51e666d6b93b69e7d6682e6"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/CineStream.cs3",
@@ -106,7 +106,7 @@
       "megix"
     ],
     "description": "CineStream · TurkSinema ayrı sağlayıcı paketi",
-    "fileSize": 747608,
+    "fileSize": 795759,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "tr",
     "tvTypes": [
@@ -117,7 +117,7 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/master/CineStream/icon.png",
     "apiVersion": 1,
-    "fileHash": "sha256-43308ce92c2d5c166620d43156e171e2b952f36d4d881df05cec7da14f5abb6c"
+    "fileHash": "sha256-ec1a167ff05ef76e403876791e64c19fb5e91040a845b600af128c71e239552f"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/ClipBox.cs3",
@@ -129,7 +129,7 @@
       "Wiojelt"
     ],
     "description": "Clip Box · TurkSinema ayrı sağlayıcı paketi",
-    "fileSize": 753383,
+    "fileSize": 830858,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "tr",
     "tvTypes": [
@@ -140,7 +140,7 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/TurkSinema/main/assets/providers/ClipBox.png",
     "apiVersion": 1,
-    "fileHash": "sha256-58b02a7562755d3f3949110f1a29545f903d1e29ffa04f164e579c1105b9e313"
+    "fileHash": "sha256-328f9263c0a39869aa59524654aedc3d89eab45cb6eefff1e799622e4b933b3a"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/FlixNetwork.cs3",
@@ -152,7 +152,7 @@
       "Wiojelt"
     ],
     "description": "Flix Network · TurkSinema ayrı sağlayıcı paketi",
-    "fileSize": 78995,
+    "fileSize": 113019,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "tr",
     "tvTypes": [
@@ -163,19 +163,19 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=flixnetwork.is&sz=128",
     "apiVersion": 1,
-    "fileHash": "sha256-e9a820f249e100917a1064f9b807fb5737a2d9259b8f5d092dbe4035072b75fe"
+    "fileHash": "sha256-88546e57785f9dfa1554d898a39223f71db7aad38b9894b0af8c383cfb366ed8"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/Mapple.cs3",
     "status": 3,
-    "version": 4,
+    "version": 3,
     "name": "Mapple",
     "internalName": "Mapple",
     "authors": [
       "Wiojelt"
     ],
     "description": "Mapple - Stream Movies, TV Shows & Anime in HD/4K (mapple.fun). Multi-source HLS streams.",
-    "fileSize": 104393,
+    "fileSize": 135189,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "all",
     "tvTypes": [
@@ -185,7 +185,7 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/test/builds/logos/mapple.png",
     "apiVersion": 1,
-    "fileHash": "sha256-0c4e17e3039d2f281698d1dd28da151d3a416cf7e8115d51c5aa8ff70629454b"
+    "fileHash": "sha256-dc4a95677860470215be9d02c0769dd5e5b3d3fe1b3cf43e28238008de7795bc"
   },
   {
     "internalName": "MovieBoxProvider",
@@ -216,7 +216,7 @@
       "Wiojelt"
     ],
     "description": "Rare Filmm · TurkSinema ayrı sağlayıcı paketi",
-    "fileSize": 29939,
+    "fileSize": 113835,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "tr",
     "tvTypes": [
@@ -227,12 +227,12 @@
     ],
     "iconUrl": "https://www.google.com/s2/favicons?domain=rarefilmm.com&sz=128",
     "apiVersion": 1,
-    "fileHash": "sha256-dc32bcfabf8f5c48cfa5b96faedb7ab79c82cd1a4d4f6aa4f967ecb056525a56"
+    "fileHash": "sha256-782a8d55abf8b854db5e46b07592a96f177e66176cf1e9f2b6d14deb6e40358f"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/TurkishCineStream.cs3",
     "status": 1,
-    "version": 483,
+    "version": 487,
     "name": "TurkishCineStream",
     "internalName": "TurkishCineStream",
     "authors": [
@@ -240,7 +240,7 @@
       "megix"
     ],
     "description": "CineStream video motoru + Türkçe çoklu altyazı motoru + upstream CineStream ayar paneli",
-    "fileSize": 806301,
+    "fileSize": 840939,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "tr",
     "tvTypes": [
@@ -251,6 +251,6 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/providers/turkishcinestream.png",
     "apiVersion": 1,
-    "fileHash": "sha256-227c949e11808b923ef3fb69bc0466fa17608d1f83fff923cff8d9c381ccaacd"
+    "fileHash": "sha256-ca1989aeea4c068d2315d67a72ae64e2c5c5f2c9e4436dea124b897925f5322d"
   }
 ]
