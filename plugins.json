@@ -244,5 +244,47 @@
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/providers/turkishcinestream.png",
     "apiVersion": 1,
     "fileHash": "sha256-ca1989aeea4c068d2315d67a72ae64e2c5c5f2c9e4436dea124b897925f5322d"
+  },
+  {
+    "name": "Velarium",
+    "internalName": "Velarium",
+    "version": 3,
+    "description": "Velarium • 4K Master M3U8 Direct Router with SHA-256 PoW Solver",
+    "authors": [
+      "Wiojelt"
+    ],
+    "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/Velarium.cs3",
+    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/velarium.png",
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "language": "en",
+    "status": 1,
+    "fileSize": 126492,
+    "fileHash": "sha256-6d454ec000c2e959a61449a934584ecc9a5f7216405bdba1c82d6196918f3af6",
+    "apiVersion": 1
+  },
+  {
+    "name": "7Reels",
+    "internalName": "SevenReels",
+    "version": 3,
+    "description": "7Reels • 4K Direct Master Stream Router (VidFast, VidCore, VixSrc)",
+    "authors": [
+      "Wiojelt"
+    ],
+    "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/SevenReels.cs3",
+    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/7reels.png",
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "language": "en",
+    "status": 1,
+    "fileSize": 133128,
+    "fileHash": "sha256-1c5401f0e6f2a0ce5154d1b434b146e0dce5b7853f36165b616a70994b25a81c",
+    "apiVersion": 1
   }
 ]
