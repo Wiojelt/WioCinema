@@ -1,7 +1,32 @@
 {
+  "id": "wioCinema",
   "name": "WioCinema",
   "version": "1.0.0",
   "scrapers": [
+    {
+      "id": "wiocinema-clipbox",
+      "name": "WioCinema • ClipBox",
+      "description": "Global ClipBox VixSrc direct TMDB provider.",
+      "version": "1.0.0",
+      "author": "Wiojelt",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/wiocinema-clipbox.js",
+      "enabled": true,
+      "hasSettings": false,
+      "logo": "https://raw.githubusercontent.com/Wiojelt/WioSinema/main/assets/logo-20261004.png?rev=2",
+      "contentLanguage": [
+        "en"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    },
     {
       "id": "wiocinema-cinestream",
       "name": "WioCinema • CineStream",
@@ -141,6 +166,81 @@
       "enabled": true,
       "hasSettings": false,
       "logo": "https://www.google.com/s2/favicons?domain=movies2watch.watch&sz=128",
+      "contentLanguage": [
+        "en"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "wiocinema-7reels",
+      "name": "WioCinema • 7Reels",
+      "description": "Global 7Reels multi-server provider (VidFast 4K, Strigil 4K, VidEasy 4K, VidLink, VidCore, Multi-Sub).",
+      "version": "1.0.0",
+      "author": "Wiojelt",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/wiocinema-7reels.js",
+      "enabled": true,
+      "hasSettings": false,
+      "logo": "https://7reels.cc/7R.ico",
+      "contentLanguage": [
+        "en"
+      ],
+      "formats": [
+        "m3u8",
+        "mp4"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "wiocinema-velarium",
+      "name": "WioCinema • Velarium",
+      "description": "Global Velarium / Lightflix multi-source 4K provider with multi-language subtitles.",
+      "version": "1.0.0",
+      "author": "Wiojelt",
+      "supportedTypes": [
+        "movie",
+        "tv"
+      ],
+      "filename": "providers/wiocinema-velarium.js",
+      "enabled": true,
+      "hasSettings": false,
+      "logo": "https://www.google.com/s2/favicons?domain=velarium.cc&sz=128",
+      "contentLanguage": [
+        "en"
+      ],
+      "formats": [
+        "m3u8"
+      ],
+      "limited": false,
+      "disabledPlatforms": [],
+      "supportsExternalPlayer": true
+    },
+    {
+      "id": "wiocinema-newtane",
+      "name": "WioCinema • Newtane",
+      "description": "Global Newtane multi-server provider (Movie, Series & Anime: VidFast 4K, Videasy 4K, VidCore, VidPro, VidLink, TryEmbed, MegaPlay, AnimePahe).",
+      "version": "1.0.0",
+      "author": "Wiojelt",
+      "supportedTypes": [
+        "movie",
+        "tv",
+        "anime"
+      ],
+      "filename": "providers/wiocinema-newtane.js",
+      "enabled": true,
+      "hasSettings": false,
+      "logo": "https://tv.newtane.com/newtv-logo.png",
       "contentLanguage": [
         "en"
       ],
