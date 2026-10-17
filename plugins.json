@@ -248,8 +248,8 @@
   {
     "name": "Velarium",
     "internalName": "Velarium",
-    "version": 3,
-    "description": "Velarium • 4K Master M3U8 Direct Router with SHA-256 PoW Solver",
+    "version": 4,
+    "description": "Velarium & Lightflix • 4K Master M3U8 Direct Router with SHA-256 PoW Solver",
     "authors": [
       "Wiojelt"
     ],
@@ -262,8 +262,8 @@
     ],
     "language": "en",
     "status": 1,
-    "fileSize": 126492,
-    "fileHash": "sha256-6d454ec000c2e959a61449a934584ecc9a5f7216405bdba1c82d6196918f3af6",
+    "fileSize": 127401,
+    "fileHash": "sha256-0711b969017e1e82e9ce9dce2aa5590f41800b87b63af69796485ca1e08b91a8",
     "apiVersion": 1
   },
   {
