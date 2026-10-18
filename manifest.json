@@ -180,7 +180,7 @@
     {
       "id": "wiocinema-7reels",
       "name": "WioCinema • 7Reels",
-      "description": "Global 7Reels multi-server provider (VidFast 4K, Strigil 4K, VidEasy 4K, VidLink, VidCore, Multi-Sub).",
+      "description": "7Reels film ve dizi kaynakları; çözünürlük oynatma listesinden doğrulanır.",
       "version": "1.0.0",
       "author": "Wiojelt",
       "supportedTypes": [
@@ -205,7 +205,7 @@
     {
       "id": "wiocinema-velarium",
       "name": "WioCinema • Velarium",
-      "description": "Global Velarium / Lightflix multi-source 4K provider with multi-language subtitles.",
+      "description": "Velarium / Lightflix film ve dizi kaynakları; çözünürlük oynatma listesinden doğrulanır.",
       "version": "1.0.0",
       "author": "Wiojelt",
       "supportedTypes": [

@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-3.0-only
- * WioCinema 7Reels Provider (4K Direct Master Stream Router)
+ * WioCinema 7Reels Provider (verified HLS sources)
  * Copyright (c) 2026 Wiojelt.
  */
 "use strict";
@@ -8,7 +8,6 @@ var DECRYPT = "https://enc-dec.app/api";
 var VIDFAST = "https://vidfast.vc";
 var VIDCORE = "https://vidcore.io";
 var VIXSRC = "https://vixsrc.to";
-var HOST = "https://7reels.cc";
 var UA = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36";
 
 function parseJson(text) { try { return JSON.parse(text); } catch (_) { return null; } }
@@ -20,6 +19,31 @@ function postJson(url, payload, headers) {
 }
 function getText(url, headers) {
   return fetch(url, { headers: headers || {} }).then(function (r) { return r.ok ? r.text() : ""; }).catch(function () { return ""; });
+}
+
+function verifiedHls(row) {
+  if (!row || !/^https?:\/\//i.test(row.url)) return Promise.resolve(null);
+  return fetch(row.url, { headers: Object.assign({ Range: "bytes=0-65535" }, row.headers || {}) })
+    .then(function (response) {
+      if (!response.ok || Number(response.headers.get("content-length") || 0) > 262144) return null;
+      return response.text();
+    }).then(function (body) {
+      if (!body || !/^\s*#EXTM3U\b/.test(body)) return null;
+      var lines = body.split(/\r?\n/).map(function (line) { return line.trim(); });
+      if (!lines.some(function (line, i) {
+        return /^(?:#EXT-X-STREAM-INF:|#EXTINF:)/.test(line) && lines[i + 1] && !lines[i + 1].startsWith("#");
+      })) return null;
+      var height = 0;
+      lines.forEach(function (line, i) {
+        if (!line.startsWith("#EXT-X-STREAM-INF:") || !lines[i + 1] || lines[i + 1].startsWith("#")) return;
+        var resolution = /RESOLUTION\s*=\s*\d+x(\d+)/i.exec(line);
+        if (resolution) height = Math.max(height, Number(resolution[1]));
+      });
+      return Object.assign({}, row, {
+        title: row.title + (height ? " • " + height + "p" : ""),
+        quality: height || null
+      });
+    }).catch(function () { return null; });
 }
 
 function buildSubtitles(tmdbId, isTv, season, episode, extraTracks) {
@@ -97,13 +121,11 @@ function resolveVidFast(tmdbId, mediaType, season, episode) {
                 .then(function (dec) {
                   var data = dec && dec.result;
                   if (!data || !data.url) return null;
-                  var is4k = s.name === "vRapid" || s.name === "vBlaze" || data.is4kAvailable || data["4kAvailable"];
                   var subs = buildSubtitles(tmdbId, isTv, season, episode, data.tracks);
                   return {
                     name: "WioCinema • 7Reels",
-                    title: "7Reels • " + (s.name || "VidFast") + (is4k ? " • 4K [Multi-Sub]" : " • 1080p [Multi-Sub]"),
+                    title: "7Reels • " + (s.name || "VidFast") + " [Multi-Sub]",
                     url: data.url,
-                    quality: is4k ? 2160 : 1080,
                     provider: "wiocinema-7reels",
                     format: "m3u8",
                     headers: { "User-Agent": UA, "Referer": VIDFAST + "/" },
@@ -164,9 +186,8 @@ function resolveVidCore(tmdbId, mediaType, season, episode) {
                   var subs = buildSubtitles(tmdbId, isTv, season, episode, data.tracks);
                   return {
                     name: "WioCinema • 7Reels",
-                    title: "7Reels • VidCore (" + (s.name || "Server") + ") • 1080p [Multi-Sub]",
+                    title: "7Reels • VidCore (" + (s.name || "Server") + ") [Multi-Sub]",
                     url: data.url,
-                    quality: 1080,
                     provider: "wiocinema-7reels",
                     format: "m3u8",
                     headers: { "User-Agent": UA, "Referer": VIDCORE + "/" },
@@ -203,9 +224,8 @@ function resolveVix(tmdbId, mediaType, season, episode) {
       var subs = buildSubtitles(tmdbId, isTv, season, episode, []);
       return [{
         name: "WioCinema • 7Reels",
-        title: "7Reels • VixDirect • 1080p [Multi-Sub]",
+        title: "7Reels • VixDirect [Multi-Sub]",
         url: url,
-        quality: 1080,
         provider: "wiocinema-7reels",
         format: "m3u8",
         headers: { "User-Agent": UA, "Referer": VIXSRC + "/" },
@@ -216,11 +236,6 @@ function resolveVix(tmdbId, mediaType, season, episode) {
 
 function getStreams(tmdbId, mediaType, season, episode) {
   if (tmdbId == null) return Promise.resolve([]);
-  var isTv = mediaType === "tv" && season != null && episode != null;
-  var idStr = encodeURIComponent(String(tmdbId));
-  var sStr = isTv ? encodeURIComponent(String(season)) : "1";
-  var eStr = isTv ? encodeURIComponent(String(episode)) : "1";
-
   return Promise.all([
     resolveVidFast(tmdbId, mediaType, season, episode),
     resolveVidCore(tmdbId, mediaType, season, episode),
@@ -236,36 +251,7 @@ function getStreams(tmdbId, mediaType, season, episode) {
       });
     });
 
-    if (out.length === 0) {
-      var subs = buildSubtitles(tmdbId, isTv, season, episode, []);
-      return [
-        {
-          name: "WioCinema • 7Reels",
-          title: "7Reels • VidFast • 4K [Multi-Sub]",
-          url: isTv
-            ? VIDFAST + "/tv/" + idStr + "/" + sStr + "/" + eStr + "?autoPlay=true&theme=16A085&nextButton=true&autoNext=true&sub=en"
-            : VIDFAST + "/movie/" + idStr + "?autoPlay=true&theme=16A085&sub=en",
-          quality: 2160,
-          provider: "wiocinema-7reels",
-          format: "m3u8",
-          headers: { "User-Agent": UA, "Referer": HOST + "/" },
-          subtitles: subs
-        },
-        {
-          name: "WioCinema • 7Reels",
-          title: "7Reels • VidCore • 1080p [Multi-Sub]",
-          url: isTv
-            ? VIDCORE + "/tv/" + idStr + "/" + sStr + "/" + eStr + "?autoPlay=true&sub=en"
-            : VIDCORE + "/movie/" + idStr + "?autoPlay=true&sub=en",
-          quality: 1080,
-          provider: "wiocinema-7reels",
-          format: "m3u8",
-          headers: { "User-Agent": UA, "Referer": HOST + "/" },
-          subtitles: subs
-        }
-      ];
-    }
-    return out;
+    return Promise.all(out.map(verifiedHls)).then(function (rows) { return rows.filter(Boolean); });
   }).catch(function (error) {
     console.error("[WioCinema 7Reels] " + (error && error.message ? error.message : String(error)));
     return [];

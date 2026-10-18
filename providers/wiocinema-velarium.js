@@ -1,5 +1,5 @@
 /* SPDX-License-Identifier: GPL-3.0-only
- * WioCinema Velarium / Lightflix Provider (Direct 4K Master Playlist Router)
+ * WioCinema Velarium / Lightflix Provider (verified HLS sources)
  * Copyright (c) 2026 Wiojelt.
  */
 "use strict";
@@ -75,6 +75,31 @@ function postJson(url, payload, headers) {
 }
 function getText(url, headers) {
   return fetch(url, { headers: headers || {} }).then(function (r) { return r.ok ? r.text() : ""; }).catch(function () { return ""; });
+}
+
+function verifiedHls(row) {
+  if (!row || !/^https?:\/\//i.test(row.url)) return Promise.resolve(null);
+  return fetch(row.url, { headers: Object.assign({ Range: "bytes=0-65535" }, row.headers || {}) })
+    .then(function (response) {
+      if (!response.ok || Number(response.headers.get("content-length") || 0) > 262144) return null;
+      return response.text();
+    }).then(function (body) {
+      if (!body || !/^\s*#EXTM3U\b/.test(body)) return null;
+      var lines = body.split(/\r?\n/).map(function (line) { return line.trim(); });
+      if (!lines.some(function (line, i) {
+        return /^(?:#EXT-X-STREAM-INF:|#EXTINF:)/.test(line) && lines[i + 1] && !lines[i + 1].startsWith("#");
+      })) return null;
+      var height = 0;
+      lines.forEach(function (line, i) {
+        if (!line.startsWith("#EXT-X-STREAM-INF:") || !lines[i + 1] || lines[i + 1].startsWith("#")) return;
+        var resolution = /RESOLUTION\s*=\s*\d+x(\d+)/i.exec(line);
+        if (resolution) height = Math.max(height, Number(resolution[1]));
+      });
+      return Object.assign({}, row, {
+        title: row.title + (height ? " • " + height + "p" : ""),
+        quality: height || null
+      });
+    }).catch(function () { return null; });
 }
 
 function solvePow(challenge, difficulty) {
@@ -182,10 +207,10 @@ function resolveVelariumDirect(tmdbId, mediaType, season, episode) {
           if (!streamToken) return [];
 
           var servers = [
-            { id: "s0", name: "Lumen", quality: 1080 },
-            { id: "s10", name: "Lux", quality: 2160 },
-            { id: "s25", name: "Prism", quality: 2160 },
-            { id: "s3", name: "Ray", quality: 1080 }
+            { id: "s0", name: "Lumen" },
+            { id: "s10", name: "Lux" },
+            { id: "s25", name: "Prism" },
+            { id: "s3", name: "Ray" }
           ];
 
           var subs = buildSubtitles(tmdbId, isTv, season, episode, []);
@@ -217,9 +242,8 @@ function resolveVelariumDirect(tmdbId, mediaType, season, episode) {
                 if (streamJson && streamJson.success && streamJson.data && streamJson.data.stream_url && streamJson.data.stream_url.indexOf("playback-unavailable") === -1) {
                   return {
                     name: "WioCinema • Velarium",
-                    title: "Velarium • " + server.name + " (" + (server.quality === 2160 ? "4K" : "1080p") + ") [Multi-Sub]",
+                    title: "Velarium • " + server.name + " [Multi-Sub]",
                     url: streamJson.data.stream_url,
-                    quality: server.quality,
                     provider: "wiocinema-velarium",
                     format: "m3u8",
                     headers: { "User-Agent": UA, "Referer": HOST + "/" },
@@ -239,57 +263,17 @@ function resolveVelariumDirect(tmdbId, mediaType, season, episode) {
 
 function getStreams(tmdbId, mediaType, season, episode) {
   if (tmdbId == null) return Promise.resolve([]);
-  var isTv = mediaType === "tv" && season != null && episode != null;
-  var idStr = encodeURIComponent(String(tmdbId));
-  var sStr = isTv ? encodeURIComponent(String(season)) : "1";
-  var eStr = isTv ? encodeURIComponent(String(episode)) : "1";
-
   return resolveVelariumDirect(tmdbId, mediaType, season, episode).then(function (streams) {
-    if (Array.isArray(streams) && streams.length > 0) {
-      var fullList = [];
-      streams.forEach(function (s) {
-        fullList.push(s);
-        fullList.push({
-          name: "WioCinema • Velarium",
-          title: s.title.replace("Velarium •", "Lightflix •"),
-          url: s.url,
-          quality: s.quality,
-          provider: "wiocinema-velarium",
-          format: "m3u8",
-          headers: { "User-Agent": UA, "Referer": LIGHTFLIX_HOST + "/" },
-          subtitles: s.subtitles
-        });
-      });
-      return fullList;
-    }
-
-    var subs = buildSubtitles(tmdbId, isTv, season, episode, []);
-    return [
-      {
-        name: "WioCinema • Velarium",
-        title: "Velarium • Player Direct • 4K [Multi-Sub]",
-        url: isTv
-          ? HOST + "/en/watch/tv/" + idStr + "-" + sStr + "-" + eStr + "?autoPlay=true&autoNext=true"
-          : HOST + "/en/watch/movie/" + idStr + "?autoPlay=true",
-        quality: 2160,
-        provider: "wiocinema-velarium",
-        format: "video",
-        headers: { "User-Agent": UA, "Referer": HOST + "/" },
-        subtitles: subs
-      },
-      {
+    var fullList = [];
+    (streams || []).forEach(function (s) {
+      fullList.push(s);
+      fullList.push(Object.assign({}, s, {
         name: "WioCinema • Lightflix",
-        title: "Lightflix • Player Direct • 4K [Multi-Sub]",
-        url: isTv
-          ? LIGHTFLIX_HOST + "/en/watch/tv/" + idStr + "-" + sStr + "-" + eStr + "?autoPlay=true&autoNext=true"
-          : LIGHTFLIX_HOST + "/en/watch/movie/" + idStr + "?autoPlay=true",
-        quality: 2160,
-        provider: "wiocinema-velarium",
-        format: "video",
-        headers: { "User-Agent": UA, "Referer": LIGHTFLIX_HOST + "/" },
-        subtitles: subs
-      }
-    ];
+        title: s.title.replace("Velarium •", "Lightflix •"),
+        headers: { "User-Agent": UA, "Referer": LIGHTFLIX_HOST + "/" }
+      }));
+    });
+    return Promise.all(fullList.map(verifiedHls)).then(function (rows) { return rows.filter(Boolean); });
   }).catch(function (error) {
     console.error("[WioCinema Velarium] " + (error && error.message ? error.message : String(error)));
     return [];

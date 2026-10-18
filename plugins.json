@@ -24,14 +24,14 @@
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/BingeBang.cs3",
     "status": 3,
-    "version": 1,
+    "version": 2,
     "name": "BingeBang",
     "internalName": "BingeBang",
     "authors": [
       "Wiojelt"
     ],
     "description": "BingeBang - Film ve Dizi Portali (bingebang.tv). 4K Ultra HD ve Full HD HLS akislari.",
-    "fileSize": 125509,
+    "fileSize": 125514,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "all",
     "tvTypes": [
@@ -40,7 +40,7 @@
     ],
     "iconUrl": "https://bingebang.tv/icon-512.png",
     "apiVersion": 1,
-    "fileHash": "sha256-75632a9baa3e84b67c98ac2b4e32bf3c8a4f3af349b3313045ea761ddad697b7"
+    "fileHash": "sha256-45e611c9e195fc1887c3022b6cf151c995766036b7ab266d0c34765925bec471"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/CineCat.cs3",
