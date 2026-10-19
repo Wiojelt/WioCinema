@@ -2,7 +2,7 @@
   {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/WioCinema.cs3",
     "status": 3,
-    "version": 8,
+    "version": 9,
     "name": "0 WioCinema",
     "internalName": "WioCinema",
     "pluginClassName": "dev.wiojelt.wiocinema.WioCinemaPlugin",
@@ -18,8 +18,8 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
-    "fileSize": 2141015,
-    "fileHash": "sha256-926da5699c6856d99cd7a21625eb7b71e54f05ed29a6098b4c20d76154236bad"
+    "fileSize": 2345143,
+    "fileHash": "sha256-cb2cd0cb6f0236f974a4c570c9267217923868c7f21c9562de80de80981adfd0"
   },
   {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/BingeBang.cs3",
@@ -248,8 +248,8 @@
   {
     "name": "Velarium",
     "internalName": "Velarium",
-    "version": 3,
-    "description": "Velarium & Lightflix • 4K Master M3U8 Direct Router with SHA-256 PoW Solver",
+    "version": 4,
+    "description": "Velarium • 4K Master M3U8 Direct Router with SHA-256 PoW Solver",
     "authors": [
       "Wiojelt"
     ],
@@ -262,14 +262,14 @@
     ],
     "language": "en",
     "status": 1,
-    "fileSize": 127401,
-    "fileHash": "sha256-0711b969017e1e82e9ce9dce2aa5590f41800b87b63af69796485ca1e08b91a8",
+    "fileSize": 129226,
+    "fileHash": "sha256-7a87b846dc9ea423413dd093e015790a09785684ede592b78d6960cc8e3bc44d",
     "apiVersion": 1
   },
   {
     "name": "7Reels",
     "internalName": "SevenReels",
-    "version": 3,
+    "version": 4,
     "description": "7Reels • 4K Direct Master Stream Router (VidFast, VidCore, VixSrc)",
     "authors": [
       "Wiojelt"
@@ -283,8 +283,8 @@
     ],
     "language": "en",
     "status": 1,
-    "fileSize": 133128,
-    "fileHash": "sha256-1c5401f0e6f2a0ce5154d1b434b146e0dce5b7853f36165b616a70994b25a81c",
+    "fileSize": 133311,
+    "fileHash": "sha256-a2f13955e459392ea570d5489a12c0bb4ee1c2347f56b61ff7aeba8a5e18cfeb",
     "apiVersion": 1
   },
   {
@@ -293,8 +293,8 @@
     "pluginClassName": "dev.wiojelt.lightflix.LightFlixPlugin",
     "version": 1,
     "status": 1,
-    "fileSize": 129274,
-    "fileHash": "sha256-3b1d947b73e43db914ea25fad16f8c473b0f1c62bfe6c08a5bb844995a709459",
+    "fileSize": 129185,
+    "fileHash": "sha256-e79249fa6240d98811a195b0ca693637479efd1d222dc449128ae40637e4d131",
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/LightFlix.cs3",
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "en",
