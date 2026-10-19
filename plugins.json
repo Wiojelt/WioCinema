@@ -248,7 +248,7 @@
   {
     "name": "Velarium",
     "internalName": "Velarium",
-    "version": 4,
+    "version": 3,
     "description": "Velarium & Lightflix • 4K Master M3U8 Direct Router with SHA-256 PoW Solver",
     "authors": [
       "Wiojelt"
@@ -285,6 +285,28 @@
     "status": 1,
     "fileSize": 133128,
     "fileHash": "sha256-1c5401f0e6f2a0ce5154d1b434b146e0dce5b7853f36165b616a70994b25a81c",
+    "apiVersion": 1
+  },
+  {
+    "name": "LightFlix",
+    "internalName": "LightFlix",
+    "pluginClassName": "dev.wiojelt.lightflix.LightFlixPlugin",
+    "version": 1,
+    "status": 1,
+    "fileSize": 129274,
+    "fileHash": "sha256-3b1d947b73e43db914ea25fad16f8c473b0f1c62bfe6c08a5bb844995a709459",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/LightFlix.cs3",
+    "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
+    "language": "en",
+    "tvTypes": [
+      "Movie",
+      "TvSeries"
+    ],
+    "authors": [
+      "Wiojelt"
+    ],
+    "description": "LightFlix • 4K Master M3U8 Direct Router with SHA-256 PoW Solver",
+    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/lightflix.png",
     "apiVersion": 1
   }
 ]
