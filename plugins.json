@@ -1,6 +1,6 @@
 [
   {
-    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/WioCinema.cs3?v=d650b8b531ab",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/WioCinema.cs3?v=cb2cd0cb6f02",
     "status": 3,
     "version": 9,
     "name": "0 WioCinema",
@@ -18,8 +18,8 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
-    "fileSize": 2345244,
-    "fileHash": "sha256-d650b8b531ab35029aa2e951f40f52e94520d6ccefefdd08476f14074dd34e10"
+    "fileSize": 2345143,
+    "fileHash": "sha256-cb2cd0cb6f0236f974a4c570c9267217923868c7f21c9562de80de80981adfd0"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/BingeBang.cs3",
@@ -259,9 +259,9 @@
     "pluginClassName": "dev.wiojelt.velarium.VelariumPlugin",
     "version": 4,
     "status": 1,
-    "fileSize": 129385,
-    "fileHash": "sha256-6e56fdec7e23972e41bfb6cf1cb56a45ecd0eb680e547e6fdc15f1e9d75e8071",
-    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/Velarium.cs3?v=6e56fdec7e23",
+    "fileSize": 129226,
+    "fileHash": "sha256-7a87b846dc9ea423413dd093e015790a09785684ede592b78d6960cc8e3bc44d",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/Velarium.cs3?v=7a87b846dc9e",
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "en",
     "tvTypes": [
@@ -281,9 +281,9 @@
     "pluginClassName": "dev.wiojelt.lightflix.LightFlixPlugin",
     "version": 1,
     "status": 1,
-    "fileSize": 129274,
-    "fileHash": "sha256-3b1d947b73e43db914ea25fad16f8c473b0f1c62bfe6c08a5bb844995a709459",
-    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/LightFlix.cs3?v=3b1d947b73e4",
+    "fileSize": 129185,
+    "fileHash": "sha256-e79249fa6240d98811a195b0ca693637479efd1d222dc449128ae40637e4d131",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/LightFlix.cs3?v=e79249fa6240",
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "en",
     "tvTypes": [
