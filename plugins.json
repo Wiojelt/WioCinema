@@ -106,7 +106,7 @@
       "megix"
     ],
     "description": "CineStream · TurkSinema ayrı sağlayıcı paketi",
-    "fileSize": 795759,
+    "fileSize": 786242,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "tr",
     "tvTypes": [
@@ -117,7 +117,7 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/SaurabhKaperwan/CSX/master/CineStream/icon.png",
     "apiVersion": 1,
-    "fileHash": "sha256-ec1a167ff05ef76e403876791e64c19fb5e91040a845b600af128c71e239552f"
+    "fileHash": "sha256-6148ada81c4843ca00f865672649271a19d93062f9edce54eb4ba767596fc474"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/ClipBox.cs3",
