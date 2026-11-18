@@ -5,5 +5,8 @@
   "manifestVersion": 1,
   "pluginLists": [
     "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/plugins.json?v=cinestream-487-30dc64362870"
-  ]
+  ],
+  "timestamp": 1795034250,
+  "lastUpdated": 1795034250,
+  "version": 2
 }

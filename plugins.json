@@ -19,7 +19,9 @@
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
     "fileSize": 2485163,
-    "fileHash": "sha256-b7b55645a51f4830968905e2ba6ddcc7c6a2cd4d59b3c58a6395aa0e42a0acc2"
+    "fileHash": "sha256-b7b55645a51f4830968905e2ba6ddcc7c6a2cd4d59b3c58a6395aa0e42a0acc2",
+    "filesize": 2485163,
+    "hash": "b7b55645a51f4830968905e2ba6ddcc7c6a2cd4d59b3c58a6395aa0e42a0acc2"
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/BingeBang.cs3",
@@ -231,7 +233,7 @@
   },
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/TurkishCineStream.cs3?v=546f25b6f63b",
-    "status": 1,
+    "status": 3,
     "version": 25,
     "name": "TurkishCineStream",
     "internalName": "TurkishCineStream",
@@ -251,7 +253,9 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/providers/turkishcinestream.png",
     "apiVersion": 1,
-    "fileHash": "sha256-546f25b6f63b78e3c85928871c6e9fdb2141d8f99aebcbe7eece1fec3d2fd8ed"
+    "fileHash": "sha256-546f25b6f63b78e3c85928871c6e9fdb2141d8f99aebcbe7eece1fec3d2fd8ed",
+    "filesize": 2329079,
+    "hash": "546f25b6f63b78e3c85928871c6e9fdb2141d8f99aebcbe7eece1fec3d2fd8ed"
   },
   {
     "name": "Velarium",
