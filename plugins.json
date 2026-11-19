@@ -232,9 +232,9 @@
     "fileHash": "sha256-782a8d55abf8b854db5e46b07592a96f177e66176cf1e9f2b6d14deb6e40358f"
   },
   {
-    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/TurkishCineStream.cs3?v=546f25b6f63b",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/TurkishCineStream.cs3?v=8490832e53db_1795124143",
     "status": 3,
-    "version": 25,
+    "version": 26,
     "name": "TurkishCineStream",
     "internalName": "TurkishCineStream",
     "authors": [
@@ -242,7 +242,7 @@
       "megix"
     ],
     "description": "CineStream video motoru + Türkçe çoklu altyazı motoru + upstream CineStream ayar paneli",
-    "fileSize": 2329079,
+    "fileSize": 391583,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "tr",
     "tvTypes": [
@@ -253,9 +253,7 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/providers/turkishcinestream.png",
     "apiVersion": 1,
-    "fileHash": "sha256-546f25b6f63b78e3c85928871c6e9fdb2141d8f99aebcbe7eece1fec3d2fd8ed",
-    "filesize": 2329079,
-    "hash": "546f25b6f63b78e3c85928871c6e9fdb2141d8f99aebcbe7eece1fec3d2fd8ed"
+    "fileHash": "sha256-8490832e53db8193c6f1ab039c33c620f7b9946b5ac2d50b782c995f21edcced"
   },
   {
     "name": "Velarium",
