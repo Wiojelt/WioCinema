@@ -232,7 +232,7 @@
     "fileHash": "sha256-782a8d55abf8b854db5e46b07592a96f177e66176cf1e9f2b6d14deb6e40358f"
   },
   {
-    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/TurkishCineStream.cs3?v=8490832e53db_1795124143",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/TurkishCineStream.cs3?v=8490832e53db",
     "status": 3,
     "version": 26,
     "name": "TurkishCineStream",
