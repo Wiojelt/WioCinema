@@ -4,9 +4,9 @@
   "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo-20261004.png?rev=2",
   "manifestVersion": 1,
   "pluginLists": [
-    "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/plugins.json?v=cinestream-487-30dc64362870"
+    "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/plugins.json?t=1795816297"
   ],
-  "timestamp": 1795124143,
-  "lastUpdated": 1795124143,
+  "timestamp": 1795816297,
+  "lastUpdated": 1795816297,
   "version": 2
 }
