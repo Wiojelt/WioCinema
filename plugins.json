@@ -2,7 +2,7 @@
   {
     "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/sinema/WioCinema.cs3?v=b7b55645a51f",
     "status": 3,
-    "version": 12,
+    "version": 13,
     "name": "0 WioCinema",
     "internalName": "WioCinema",
     "pluginClassName": "dev.wiojelt.wiocinema.WioCinemaPlugin",
@@ -18,7 +18,7 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
-    "fileSize": 2485163,
+    "fileSize": 2502910,
     "fileHash": "sha256-b7b55645a51f4830968905e2ba6ddcc7c6a2cd4d59b3c58a6395aa0e42a0acc2",
     "filesize": 2485163,
     "hash": "b7b55645a51f4830968905e2ba6ddcc7c6a2cd4d59b3c58a6395aa0e42a0acc2"
