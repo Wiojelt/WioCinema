@@ -1,8 +1,8 @@
 [
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/WioCinema.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/WioCinema.cs3?v=e591da5c3453_1795816295",
     "status": 3,
-    "version": 10,
+    "version": 13,
     "name": "0 WioCinema",
     "internalName": "WioCinema",
     "pluginClassName": "dev.wiojelt.wiocinema.WioCinemaPlugin",
@@ -18,20 +18,21 @@
     ],
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioCinema/main/assets/logo.png",
     "apiVersion": 1,
-    "fileSize": 2358068,
-    "fileHash": "sha256-6411d6a697ee933a387e98c2773eeaa287488c2c63715b3d98d671e8855ac58f"
+    "fileSize": 2502887,
+    "fileHash": "sha256-e591da5c34530de3e221b5604a8ab4e867a1535dccb2d9d8a3be36014f120df8",
+    "hash": "e591da5c34530de3e221b5604a8ab4e867a1535dccb2d9d8a3be36014f120df8"
   },
   {
-    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/BingeBang.cs3",
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/BingeBang.cs3?v=aecd055fdfe2_1795816295",
     "status": 3,
-    "version": 1,
+    "version": 3,
     "name": "BingeBang",
     "internalName": "BingeBang",
     "authors": [
       "Wiojelt"
     ],
     "description": "BingeBang - Film ve Dizi Portali (bingebang.tv). 4K Ultra HD ve Full HD HLS akislari.",
-    "fileSize": 93034,
+    "fileSize": 131397,
     "repositoryUrl": "https://github.com/Wiojelt/WioCinema",
     "language": "all",
     "tvTypes": [
@@ -40,7 +41,8 @@
     ],
     "iconUrl": "https://bingebang.tv/icon-512.png",
     "apiVersion": 1,
-    "fileHash": "sha256-eaab420873e962c643bca5a79f41ebf2949008aea47f61248527bbdb83c71d80"
+    "fileHash": "sha256-aecd055fdfe21f77d1fe7ed67273fc78d38ace4e051c026ab508681ffd4f0a2b",
+    "hash": "aecd055fdfe21f77d1fe7ed67273fc78d38ace4e051c026ab508681ffd4f0a2b"
   },
   {
     "url": "https://raw.githubusercontent.com/Wiojelt/WioCinema/builds/CineCat.cs3",
